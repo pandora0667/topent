@@ -1,0 +1,8 @@
+version: '3'
+services:
+  front-end:
+    image: jusk2/topent
+    hostname: topent
+    restart: always
+    ports:
+      - "6000:80"
